@@ -21,6 +21,8 @@ class BannerAd extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
+      width: adSize.width,
+      height: adSize.height,
       child: _BannerAdView(),
     );
   }
